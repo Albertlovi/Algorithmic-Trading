@@ -1,3 +1,3 @@
 # Algorithmic-Trading
 
-Hola que tal
+Hola que tal em dic Albert
