@@ -46,6 +46,8 @@ git commit -m "title_of_the_commit"
 git push
 ```
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## To rebase a branch with the main branch
 
 1. Make sure that the main branch is up to date:
@@ -72,4 +74,14 @@ After this you should get the following message 'Successfully rebased and update
 
 ```bash
 git push --force
+```
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+## General commands:
+
+To delete a branch:
+
+```bash
+git branch -d name_of_the_branch
 ```
