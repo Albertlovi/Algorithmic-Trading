@@ -39,3 +39,9 @@ git add .
 ```bash
 git commit -m "title_of_the_commit"
 ```
+
+7. Push the commits in the main branch:
+
+```bash
+git push
+```
