@@ -8,25 +8,25 @@
 git pull
 ```
 
-2. Create a new sub branch:
+2. Create a new branch:
 
 ```bash
-git checkout -b name_of_the_sub_branch
+git checkout -b name_of_the_branch
 ```
 
-or move to a sub branch
+or move to an existing branch
 
 ```bash
-git checkout name_of_the_sub_branch
+git checkout name_of_the_branch
 ```
 
 3. Set up stream with the main branch
 
 ```bash
-git push --set-upstream origin subbranch
+git push --set-upstream origin name_of_the_branch
 ```
 
-4. Make the desired changes in the sub branch
+4. Make the desired changes in the branch
 
 5. Add the changes:
 
@@ -44,4 +44,18 @@ git commit -m "title_of_the_commit"
 
 ```bash
 git push
+```
+
+## To rebase a branch with the main branch
+
+1. Make sure that the main branch is up to date:
+
+```bash
+git pull
+```
+
+2. Move to the other branch and run:
+
+```bash
+git rebase main
 ```
