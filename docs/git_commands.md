@@ -59,3 +59,17 @@ git pull
 ```bash
 git rebase main
 ```
+
+3. Resolve the conflicts that might appear one by one and continue:
+
+```bash
+git rebase --continue
+```
+
+After this you should get the following message 'Successfully rebased and updated refs/heads/name_of_the_branch.'
+
+4. Force push the branch to the main branch:
+
+```bash
+git push --force
+```
