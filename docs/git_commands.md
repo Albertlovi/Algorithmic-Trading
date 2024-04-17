@@ -1,4 +1,4 @@
-# git comands
+# git commands
 
 ## To make changes into the main branch
 
@@ -20,9 +20,22 @@ or move to a sub branch
 git checkout name_of_the_sub_branch
 ```
 
-3. Make the desired changes in the sub branch
+3. Set up stream with the main branch
 
-4. Add the changes:
+```bash
+git push --set-upstream origin subbranch
+```
 
-5. Commit the changes
+4. Make the desired changes in the sub branch
 
+5. Add the changes:
+
+```bash
+git add .
+```
+
+6. Commit the changes
+
+```bash
+git commit -m "title_of_the_commit"
+```
