@@ -14,4 +14,3 @@ Install the depencies:
 ```bash
 pip install -r requirements.txt
 ```
-

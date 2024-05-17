@@ -1,2 +1,3 @@
 # Packages and libraries to install
 pandas==2.2.2
+pre-commit==3.7.1
